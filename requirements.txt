@@ -1,0 +1,41 @@
+# Data
+yfinance==0.2.38
+pandas==2.2.0
+numpy==1.26.4
+requests==2.31.0
+fredapi==0.5.1
+beautifulsoup4==4.12.3
+sec-edgar-downloader==5.0.3
+
+# NLP & Sentiment
+transformers==4.40.0
+torch==2.2.1
+spacy==3.7.4
+
+# Embeddings — local, no API key needed
+sentence-transformers==3.0.0
+
+# Graph
+networkx==3.3
+
+# ML & Forecasting
+scikit-learn==1.4.2
+xgboost==2.0.3
+shap==0.45.0
+mlflow==2.12.1
+
+# RAG — free LLMs
+langchain==0.2.1
+langchain-community==0.2.1
+langchain-groq==0.1.6          # Groq (Llama 3.1 70B — free)
+groq==0.8.0
+chromadb==0.5.0
+
+# Dashboard
+streamlit==1.35.0
+plotly==5.22.0
+streamlit-agraph==0.0.45
+
+# Utils
+python-dotenv==1.0.1
+loguru==0.7.2

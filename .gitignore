@@ -1,0 +1,32 @@
+# Virtual environment
+venv/
+
+# Environment variables — NEVER push this
+.env
+
+# Data files — too large for GitHub
+data/raw/
+data/processed/
+data/embeddings/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# MLflow runs
+mlruns/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# HuggingFace cache
+.cache/
+
+# Model files
+*.pkl
+*.bin
